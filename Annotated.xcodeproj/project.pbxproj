@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5CD6AE01C333EFB0035821D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6ADF1C333EFB0035821D /* AppDelegate.swift */; };
+		B5CD6AE21C333EFB0035821D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6AE11C333EFB0035821D /* ViewController.swift */; };
+		B5CD6AE41C333EFB0035821D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD6AE31C333EFB0035821D /* Assets.xcassets */; };
+		B5CD6AE71C333EFB0035821D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD6AE51C333EFB0035821D /* Main.storyboard */; };
+		B5CD6B041C333F740035821D /* AArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6AF11C333F740035821D /* AArrow.m */; };
+		B5CD6B061C333F740035821D /* ABrushStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6AF41C333F740035821D /* ABrushStroke.m */; };
+		B5CD6B0C1C333F740035821D /* ADrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6AFB1C333F740035821D /* ADrawable.m */; };
+		B5CD6B0D1C333F740035821D /* AnnotatedImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CD6AFC1C333F740035821D /* AnnotatedImage.xib */; };
+		B5CD6B0E1C333F740035821D /* AnnotatedImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6AFE1C333F740035821D /* AnnotatedImageController.m */; };
+		B5CD6B0F1C333F740035821D /* AnnotatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6B001C333F740035821D /* AnnotatedImageView.m */; };
+		B5CD6B101C333F740035821D /* Annotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6B011C333F740035821D /* Annotator.swift */; };
+		B5CD6B111C333F740035821D /* APoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6B031C333F740035821D /* APoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5CD6ADC1C333EFB0035821D /* Annotated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Annotated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CD6ADF1C333EFB0035821D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5CD6AE11C333EFB0035821D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5CD6AE31C333EFB0035821D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5CD6AE61C333EFB0035821D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5CD6AE81C333EFB0035821D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CD6AEF1C333F730035821D /* Annotated-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Annotated-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5CD6AF01C333F740035821D /* AArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AArrow.h; sourceTree = "<group>"; };
+		B5CD6AF11C333F740035821D /* AArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AArrow.m; sourceTree = "<group>"; };
+		B5CD6AF31C333F740035821D /* ABrushStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABrushStroke.h; sourceTree = "<group>"; };
+		B5CD6AF41C333F740035821D /* ABrushStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABrushStroke.m; sourceTree = "<group>"; };
+		B5CD6AFA1C333F740035821D /* ADrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADrawable.h; sourceTree = "<group>"; };
+		B5CD6AFB1C333F740035821D /* ADrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADrawable.m; sourceTree = "<group>"; };
+		B5CD6AFC1C333F740035821D /* AnnotatedImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotatedImage.xib; sourceTree = "<group>"; };
+		B5CD6AFD1C333F740035821D /* AnnotatedImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotatedImageController.h; sourceTree = "<group>"; };
+		B5CD6AFE1C333F740035821D /* AnnotatedImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotatedImageController.m; sourceTree = "<group>"; };
+		B5CD6AFF1C333F740035821D /* AnnotatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotatedImageView.h; sourceTree = "<group>"; };
+		B5CD6B001C333F740035821D /* AnnotatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotatedImageView.m; sourceTree = "<group>"; };
+		B5CD6B011C333F740035821D /* Annotator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotator.swift; sourceTree = "<group>"; };
+		B5CD6B021C333F740035821D /* APoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APoint.h; sourceTree = "<group>"; };
+		B5CD6B031C333F740035821D /* APoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5CD6AD91C333EFB0035821D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CD6AD31C333EFB0035821D = {
+			isa = PBXGroup;
+			children = (
+				B5CD6ADE1C333EFB0035821D /* Annotated */,
+				B5CD6ADD1C333EFB0035821D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5CD6ADD1C333EFB0035821D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD6ADC1C333EFB0035821D /* Annotated.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CD6ADE1C333EFB0035821D /* Annotated */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD6AEE1C333F560035821D /* Lib */,
+				B5CD6ADF1C333EFB0035821D /* AppDelegate.swift */,
+				B5CD6AE11C333EFB0035821D /* ViewController.swift */,
+				B5CD6AE31C333EFB0035821D /* Assets.xcassets */,
+				B5CD6AE51C333EFB0035821D /* Main.storyboard */,
+				B5CD6AE81C333EFB0035821D /* Info.plist */,
+			);
+			path = Annotated;
+			sourceTree = "<group>";
+		};
+		B5CD6AEE1C333F560035821D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD6AF01C333F740035821D /* AArrow.h */,
+				B5CD6AF11C333F740035821D /* AArrow.m */,
+				B5CD6AF31C333F740035821D /* ABrushStroke.h */,
+				B5CD6AF41C333F740035821D /* ABrushStroke.m */,
+				B5CD6AFA1C333F740035821D /* ADrawable.h */,
+				B5CD6AFB1C333F740035821D /* ADrawable.m */,
+				B5CD6AFC1C333F740035821D /* AnnotatedImage.xib */,
+				B5CD6AFD1C333F740035821D /* AnnotatedImageController.h */,
+				B5CD6AFE1C333F740035821D /* AnnotatedImageController.m */,
+				B5CD6AFF1C333F740035821D /* AnnotatedImageView.h */,
+				B5CD6B001C333F740035821D /* AnnotatedImageView.m */,
+				B5CD6B011C333F740035821D /* Annotator.swift */,
+				B5CD6B021C333F740035821D /* APoint.h */,
+				B5CD6B031C333F740035821D /* APoint.m */,
+				B5CD6AEF1C333F730035821D /* Annotated-Bridging-Header.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5CD6ADB1C333EFB0035821D /* Annotated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CD6AEB1C333EFB0035821D /* Build configuration list for PBXNativeTarget "Annotated" */;
+			buildPhases = (
+				B5CD6AD81C333EFB0035821D /* Sources */,
+				B5CD6AD91C333EFB0035821D /* Frameworks */,
+				B5CD6ADA1C333EFB0035821D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Annotated;
+			productName = Annotated;
+			productReference = B5CD6ADC1C333EFB0035821D /* Annotated.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5CD6AD41C333EFB0035821D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Christopher Sexton";
+				TargetAttributes = {
+					B5CD6ADB1C333EFB0035821D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B5CD6AD71C333EFB0035821D /* Build configuration list for PBXProject "Annotated" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5CD6AD31C333EFB0035821D;
+			productRefGroup = B5CD6ADD1C333EFB0035821D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5CD6ADB1C333EFB0035821D /* Annotated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5CD6ADA1C333EFB0035821D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD6AE41C333EFB0035821D /* Assets.xcassets in Resources */,
+				B5CD6B0D1C333F740035821D /* AnnotatedImage.xib in Resources */,
+				B5CD6AE71C333EFB0035821D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5CD6AD81C333EFB0035821D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD6B041C333F740035821D /* AArrow.m in Sources */,
+				B5CD6AE21C333EFB0035821D /* ViewController.swift in Sources */,
+				B5CD6B0C1C333F740035821D /* ADrawable.m in Sources */,
+				B5CD6AE01C333EFB0035821D /* AppDelegate.swift in Sources */,
+				B5CD6B0E1C333F740035821D /* AnnotatedImageController.m in Sources */,
+				B5CD6B0F1C333F740035821D /* AnnotatedImageView.m in Sources */,
+				B5CD6B101C333F740035821D /* Annotator.swift in Sources */,
+				B5CD6B061C333F740035821D /* ABrushStroke.m in Sources */,
+				B5CD6B111C333F740035821D /* APoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5CD6AE51C333EFB0035821D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CD6AE61C333EFB0035821D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5CD6AE91C333EFB0035821D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5CD6AEA1C333EFB0035821D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5CD6AEC1C333EFB0035821D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Annotated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeography.Annotated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Annotated/Lib/Annotated-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5CD6AED1C333EFB0035821D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Annotated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeography.Annotated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Annotated/Lib/Annotated-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5CD6AD71C333EFB0035821D /* Build configuration list for PBXProject "Annotated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD6AE91C333EFB0035821D /* Debug */,
+				B5CD6AEA1C333EFB0035821D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CD6AEB1C333EFB0035821D /* Build configuration list for PBXNativeTarget "Annotated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD6AEC1C333EFB0035821D /* Debug */,
+				B5CD6AED1C333EFB0035821D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5CD6AD41C333EFB0035821D /* Project object */;
+}
