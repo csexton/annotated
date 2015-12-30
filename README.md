@@ -9,4 +9,4 @@ Eventually this would be great as a stand alone framework, but the project has n
 
 # License
 
-This code is distributed under the MIT License. See '`LICENSE.md`](LICENSE.md) for details.
+This code is distributed under the MIT License. See [`LICENSE.md`](LICENSE.md) for details.
